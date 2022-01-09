@@ -1,0 +1,23 @@
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #EC4E49;
+    width: 250px;
+    height: 50px;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn-left {
+    margin-right: 10px;
+}
+
+.btn-right {
+    margin-left: 10px;
+}

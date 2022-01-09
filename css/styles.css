@@ -1,3 +1,6 @@
+@import 'modal.css';
+@import 'button.css';
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -80,30 +83,6 @@ html, body {
 .error-message {
     margin-top: 5px;
     color: #faa;
-}
-
-.btn-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.btn-container button {
-    background-color: #EC4E49;
-    width: 250px;
-    height: 50px;
-    border-radius: 4px;
-    border: 0;
-    color: #fff;
-    font-weight: 700;
-    font-size: 14px;
-}
-
-.btn-left {
-    margin-right: 10px;
-}
-
-.btn-right {
-    margin-left: 10px;
 }
 
 .list-container {
